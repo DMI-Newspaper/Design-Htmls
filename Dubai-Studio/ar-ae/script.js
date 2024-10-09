@@ -66,6 +66,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         perPage: 4, 
         pagination: false,
         arrows: false,
+        direction  : document.documentElement.dir === 'rtl' ? 'rtl' : 'ltr',
         breakpoints: {
             1024: {
                 perPage: 2,
@@ -89,6 +90,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         pagination: false,
         arrows: false,
         autoWidth: true,
+        direction  : document.documentElement.dir === 'rtl' ? 'rtl' : 'ltr',
         breakpoints: {
             1024: {
                 perPage: 2,
@@ -115,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
         pagination: false,
         arrows: false,
         autoWidth: true,
+        direction  : document.documentElement.dir === 'rtl' ? 'rtl' : 'ltr',
         breakpoints: {
             1024: {
                 perPage: 2,

@@ -824,6 +824,14 @@ p {
 /* ============================= */
 /* Arabic version */
 /* ============================= */
-body.ar-ver{
-    
+html[dir="rtl"] .offcanvas.offcanvas-end {
+    right: unset;
+}
+html[dir="rtl"] .offcanvas .nav-link::before{
+    right: -4px;
+    left: unset;
+}
+html[dir="rtl"] #offcanvasMenu .btn-close{
+    right: unset;
+    left: 25px;
 }

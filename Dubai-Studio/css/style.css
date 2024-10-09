@@ -3,19 +3,19 @@
 /* ============================= */
 @font-face {
     font-family: 'DMIFont';
-    src: url('/assets/font/DMIFont-Regular.woff') format('woff');
+    src: url('/font/DMIFont-Regular.woff') format('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'DMIFont';
-    src: url('/assets/font/DMIFont-Medium.woff') format('woff');
+    src: url('/font/DMIFont-Medium.woff') format('woff');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'DMIFont';
-    src: url('/assets/font/DMIFont-Bold.woff') format('woff');
+    src: url('/font/DMIFont-Bold.woff') format('woff');
     font-weight: 600;
 }
 
@@ -234,7 +234,7 @@ p {
 
 /* About Section */
 .about-section {
-    background: url('/assets/image/about-us-banner.png') no-repeat center center/cover;
+    background: url('/image/about-us-banner.png') no-repeat center center/cover;
     height: 100vh; /* Full-screen height */
     display: flex;
     align-items: center;
@@ -344,7 +344,7 @@ p {
 /* ============================= */
 
 .our-services-section {
-    background-image: url('/assets/image/our-services-banner.png'); 
+    background-image: url('/image/our-services-banner.png'); 
     background-size: cover; 
     background-position: center;
     padding: 60px 0;

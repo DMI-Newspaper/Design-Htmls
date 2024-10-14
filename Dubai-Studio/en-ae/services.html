@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">a
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dubai Studios | Home</title>
+    <title>Dubai Studios | Our Services</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/splide.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -21,7 +21,7 @@
                 <div class="d-flex align-items-center">
                     <!-- Language Selector with Dropdown -->
                     <div class="language-selector me-3 position-relative">
-                        <button class="btn language-btn" id="language-btn">AR</button>
+                        <button class="btn language-btn" id="language-btn">EN</button>
                         <ul class="dropdown-menu" id="language-dropdown">
                             <li><a class="dropdown-item" data-lang="EN" href="/en-ae/">EN</a></li>
                             <li><a class="dropdown-item" data-lang="AR" href="/ar-ae/">AR</a></li>
@@ -36,7 +36,7 @@
         </nav>
 
         <!-- Offcanvas Side Menu -->
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
             <div class="offcanvas-header my-5">
                 <h5 class="offcanvas-title" id="offcanvasMenuLabel">
                     <img src="../svg/logo-side-menu.svg" alt="Dubai Studios" width="120">
@@ -56,33 +56,27 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-video">
-        <div class="video-wrapper">
-        <video autoplay loop muted playsinline>
-                <source src="https://assets.dmi.ae/dubaistudios/sample-video.mp4" type="video/mp4">
-            </video>
+    <!-- Page Header Section -->
+    <section class="page-header-section">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="dot"></span> Our Services
+            </h1>
+            <div class="breadcrumb">
+                <span><a href="/en-ae/">Home</a><img src="../svg/arrow_right.svg"/><a href="/en-ae/services.html">Our Services</a></span>
+            </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about-section">
+    <!-- Section Group 2 -->
+    <section class="section-group-2 page-os">
         <div class="container">
-            <div class="left-section">
-                <h1>Where stories <br> come to life<span class="dot">.</span></h1>
+            <div class="image-wrapper">
+                <img src="../image/sample-inner-page-image.png" class="service-icon">
             </div>
-            <div class="right-section">
-                <h2>Who we are</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <a href="/en-ae/about.html" class="view-more-btn">
-                    <div class="circle-mask"></div>
-                    <span class="btn-text">
-                        <span>View More</span>
-                        <img src="../svg/arrow_up_right.svg">
-                    </span>
-                </a>
+            <div class="text-content">
+                <h3 class="service-title">Core values and business philosophy</h3>
+                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
         </div>
     </section>
@@ -90,7 +84,6 @@
     <!-- Our Services Section -->
     <section class="our-services-section">
         <div class="container">
-            <h2 class="section-title">OUR SERVICES<span class="dot">.</span></h2>
 
             <!-- Splide Slider -->
             <div class="splide" id="services-slider">
@@ -107,7 +100,7 @@
                                     <div class="text-content">
                                         <h3 class="service-title">FILM PRODUCTION</h3>
                                         <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="/en-ae/services.html" class="read-more">Read more</a>
+                                        <a href="#" class="read-more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +116,7 @@
                                     <div class="text-content">
                                         <h3 class="service-title">POST PRODUCTION</h3>
                                         <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="/en-ae/services.html" class="read-more">Read more</a>
+                                        <a href="#" class="read-more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +132,7 @@
                                     <div class="text-content">
                                         <h3 class="service-title">DISTRIBUTION & MARKETING</h3>
                                         <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="/en-ae/services.html" class="read-more">Read more</a>
+                                        <a href="#" class="read-more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +148,7 @@
                                     <div class="text-content">
                                         <h3 class="service-title">SCRIPT DEVELOPMENT</h3>
                                         <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="/en-ae/services.html" class="read-more">Read more</a>
+                                        <a href="#" class="read-more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -164,158 +157,22 @@
                 </div>
             </div>
 
-            <!-- View More Button -->
-            <div class="view-more-wrapper text-center">
-                <a href="/en-ae/services.html" class="view-more-btn text-center">
-                    <div class="circle-mask"></div>
-                    <span class="btn-text">
-                        <span>View More</span>
-                        <img src="../svg/arrow_up_right.svg">
-                    </span>
-                </a>
-            </div>
         </div>
     </section>
 
-    <!-- Catalogue Section -->
-    <section class="catalogue-section">
+    <!-- Contact Us Banner -->
+    <section class="contact-us-banner">
         <div class="container">
-            <h2 class="section-title">CATALOGUE<span class="dot">.</span></h2>
+            <span class="banner-title">Looking for any of our services?</span>
 
-            <!-- Splide Slider -->
-            <div class="splide" id="catalogue-slider">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <!-- Catalogue Card 1 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-1.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Catalogue Card 2 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-2.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Catalogue Card 3 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-3.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Catalogue Card 4 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-4.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Catalogue Card 5 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-5.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Catalogue Card 6 -->
-                        <li class="splide__slide">
-                            <a href="/en-ae/catalogue-details.html" class="catalogue-card">
-                                <div class="catalogue-title"><span>MOVIE</span></div>
-                                <img src="../image/Catalogue-image-6.png" class="catalogue-image">
-                                <div class="icon-overlay">
-                                    <div class="circle"></div>
-                                    <img src="../svg/play-icon.svg" alt="Play Icon" class="play-icon">
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- View More Button -->
-            <div class="view-more-wrapper text-center">
-                <a href="/en-ae/catalogue-details.html" class="view-more-btn text-center">
+            <div class="view-more-wrapper">
+                <a href="/en-ae/contact.html" class="view-more-btn">
                     <div class="circle-mask"></div>
                     <span class="btn-text">
-                        <span>View More</span>
+                        <span>Contact us</span>
                         <img src="../svg/arrow_up_right.svg">
                     </span>
                 </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Partner Section -->
-    <section class="our-partners-section">
-        <div class="container">
-            <h2 class="section-title">OUR PARTNERS<span class="dot">.</span></h2>
-
-            <!-- Splide Slider -->
-            <div class="splide" id="partners-slider">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <!-- Partner 1 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-1.png" class="partner-image">
-                            </div>
-                        </li>
-                        <!-- Partner 2 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-2.png" class="partner-image">
-                            </div>
-                        </li>
-                        <!-- Partner 3 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-3.png" class="partner-image">
-                            </div>
-                        </li>
-                        <!-- Partner 4 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-4.png" class="partner-image">
-                            </div>
-                        </li>
-                        <!-- Partner 5 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-5.png" class="partner-image">
-                            </div>
-                        </li>
-                        <!-- Partner 6 -->
-                        <li class="splide__slide">
-                            <div class="partner-wrapper">
-                                <img src="../image/partner-image-6.png" class="partner-image">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>

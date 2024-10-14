@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Studios | Team</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/splide.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../svg/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <nav class="navbar">
+            <div class="container-fluid py-3 px-4">
+                <a class="navbar-brand" href="/en-ae/">
+                    <img src="../svg/logo-header.svg" alt="Dubai Studios" class="logo-responsive">
+                </a>
+                <div class="d-flex align-items-center">
+                    <!-- Language Selector with Dropdown -->
+                    <div class="language-selector me-3 position-relative">
+                        <button class="btn language-btn" id="language-btn">EN</button>
+                        <ul class="dropdown-menu" id="language-dropdown">
+                            <li><a class="dropdown-item" data-lang="EN" href="/en-ae/">EN</a></li>
+                            <li><a class="dropdown-item" data-lang="AR" href="/ar-ae/">AR</a></li>
+                        </ul>
+                    </div>
+                    <!-- Side Menu Icon (placeholder for SVG) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                        <img src="../svg/menu-icon.svg" alt="Menu Icon" class="menu-icon">
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Offcanvas Side Menu -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header my-5">
+                <h5 class="offcanvas-title" id="offcanvasMenuLabel">
+                    <img src="../svg/logo-side-menu.svg" alt="Dubai Studios" width="120">
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/catalogue-details.html">Catalogue</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/services.html">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/en-ae/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header Section -->
+    <section class="page-header-section">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="dot"></span> Team
+            </h1>
+            <div class="breadcrumb">
+                <span><a href="/en-ae/">Home</a><img src="../svg/arrow_right.svg"/><a href="/en-ae/team.html">Team</a></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <span class="team-overview">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+
+            <!-- Splide Slider -->
+            <div class="splide" id="team-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <!-- Team Card 1 -->
+                        <li class="splide__slide">
+                            <div class="team-card">
+                                <div class="team-detail">
+                                    <span class="name">Position Name</span>
+                                    <span class="role">Position</span>
+                                </div>
+                                <div class="cover-circle"></div>
+                                <img src="../image/sample-team-member.png">
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Us Banner -->
+    <section class="contact-us-banner">
+        <div class="container">
+            <span class="banner-title">Looking for any of our services?</span>
+
+            <div class="view-more-wrapper">
+                <a href="/en-ae/contact.html" class="view-more-btn">
+                    <div class="circle-mask"></div>
+                    <span class="btn-text">
+                        <span>Contact us</span>
+                        <img src="../svg/arrow_up_right.svg">
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <a href="/en-ae/">
+                    <img src="../svg/logo-header.svg" alt="Dubai Studios" class="logo">
+                </a>
+            </div>
+
+            <div class="footer-center">
+                <div class="menu">
+                    <a href="/en-ae/">Home</a>
+                    <a href="/en-ae/about.html">About Us</a>
+                    <a href="/en-ae/catalogue-details.html">Catalogue</a>
+                    <a href="/en-ae/services.html">Our Services</a>
+                    <a href="/en-ae/team.html">Team</a>
+                    <a href="/en-ae/team.html">Contact Us</a>
+                </div>
+                <div class="menu sec">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <div class="credit">
+                    <p>Copyright 2024 © All Rights Reserved by DUBAI STUDIOS</p>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="address-item">
+                    <img src="../svg/map-marker-icon.svg" alt="Location" class="icon">
+                    <a href="">Oud Metha, Umm Hurair Second, PO Box 835, Dubai, UAE</a>
+                </div>
+                <div class="address-item">
+                    <img src="../svg/phone-icon.svg" alt="Phone" class="icon">
+                    <a href="">+971 4 307 7000</a>
+                </div>
+                <div class="address-item">
+                    <img src="../svg/email-icon.svg" alt="Email" class="icon">
+                    <a href="">mailus@dmi.ae</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="../svg/fb-logo.svg" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="../svg/ig-logo.svg" alt="Instagram" class="social-icon"></a>
+                    <a href="#"><img src="../svg/li-logo.svg" alt="LinkedIn" class="social-icon"></a>
+                    <a href="#"><img src="../svg/tw-logo.svg" alt="Twitter" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/splide.min.js"></script>
+    <script src="../js/splide-extension-auto-scroll.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -748,6 +748,9 @@ html[dir="rtl"] #offcanvasMenu .btn-close{
     position: absolute;
     left: -24px;
 }
+html[dir="rtl"] .page-header-section .page-title::before {
+    right: -24px;
+}
 .page-header-section .breadcrumb {
     color: white;
     margin-bottom: 10px;
@@ -953,7 +956,7 @@ html[dir="rtl"] #offcanvasMenu .btn-close{
 .vision-section .vision-card:hover {
     border: 0.5px solid #FFF;
 }
-.page-header-section span a:nth-child(3){
+.page-header-section span a:last-child{
     color: #00B8B1;
 }
 
